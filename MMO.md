@@ -10,7 +10,6 @@ Render Texture（性能要求不高的场景）
 
 ![1700922705189](image/MMO/1700922705189.png)
 
-
 # 使用的协议
 
 Google 的 Protocol Buffers（简称为protobuf）是一种用于序列化结构化数据的开源协议。它被设计用于高效、简单、通用的数据交换格式。下面是使用protobuf的一些主要好处：
@@ -22,7 +21,6 @@ Google 的 Protocol Buffers（简称为protobuf）是一种用于序列化结构
 5. **代码生成：** Protobuf 通过编译器生成与消息结构对应的代码，包括用于序列化和反序列化的代码以及用于消息访问的代码。这样的自动生成可以减少手动编写和维护序列化和反序列化逻辑的工作。
 6. **网络通信：** 由于 Protobuf 的高效性和跨语言支持，它经常用于网络通信协议。在分布式系统中，它可以作为数据交换的标准格式，有助于不同服务之间的通信。
 
-
 # 进入游戏流程
 
 客户端点击进入游戏
@@ -31,13 +29,11 @@ Google 的 Protocol Buffers（简称为protobuf）是一种用于序列化结构
 
 发送： UserGameEnterRequest （UserService）
 
-
 服务端收到 UserGameEnterRequest（UserService）
 
 触发：OnGameEnter
 
 发送：UserGameEnterResponse（UserService）
-
 
 客户端收到 UserGameEnterResponse（UserService）
 
@@ -45,13 +41,11 @@ Google 的 Protocol Buffers（简称为protobuf）是一种用于序列化结构
 
 设置 CurrentCharacter
 
-
 服务端继续发送
 
 继续执行 CharacterEnter （MapManager的Map中）
 
 发送 MapCharacterEnterResponse 给当前Map中的所有Characters（Map）
-
 
 客户端收到 MapCharacterEnterResponse
 
@@ -65,9 +59,7 @@ Google 的 Protocol Buffers（简称为protobuf）是一种用于序列化结构
 
 检查是否切换地图
 
-
-# 同步实现
-
+# 同步实现流程
 
 > 对象
 
@@ -83,9 +75,17 @@ EntityController
 
 控制器
 
-
 > 流程
 
 玩家操作移动才开始同步
 
 起点：PlayerInputController
+
+
+TODO
+
+
+# 传送地图流程
+
+
+UI 系统 （其他系统的依赖）
