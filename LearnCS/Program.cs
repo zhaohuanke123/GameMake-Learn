@@ -1,17 +1,32 @@
 ﻿using System;
 using System.Diagnostics;
 
-class Program
+class Program : IA, IB
 {
     static void Main()
     {
-        
-        string s = @"C:\Users\Public\TestFolder\WriteLines2.txt";
-        Console.WriteLine(s);
+        var p = new Program();
+        ((IA)p).MyMethod();
+        ((IB)p).MyMethod();
+    }
+    
+    void IA.MyMethod()
+    {
+        Console.WriteLine("Hello World!");
     }
 
-     static void MyMethod()
+    void IB.MyMethod()
     {
-        
+        Console.WriteLine("Hello World!");
     }
+}
+
+public interface IA
+{
+  public  void MyMethod();
+}
+
+public interface IB
+{
+   public void MyMethod();
 }
