@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj": {}
+    "D:\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj": {
+    "D:\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj",
+        "projectUniqueName": "D:\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj",
         "projectName": "LearnCS",
-        "projectPath": "C:\\Users\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj",
+        "projectPath": "D:\\zhk02\\Desktop\\简历\\LearnCS\\LearnCS.csproj",
         "packagesPath": "C:\\Users\\zhk02\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zhk02\\Desktop\\简历\\LearnCS\\obj\\",
+        "outputPath": "D:\\zhk02\\Desktop\\简历\\LearnCS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zhk02\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

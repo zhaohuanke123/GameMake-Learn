@@ -1,3 +1,10 @@
 /我的
 *.pdf
 学习计划路线.md
+LearnCS/obj/Debug/net8.0/LearnCS.AssemblyInfo.cs
+LearnCS/obj/Debug/net8.0/LearnCS.AssemblyInfoInputs.cache
+LearnCS/obj/Debug/net8.0/LearnCS.assets.cache
+LearnCS/obj/Debug/net8.0/LearnCS.GeneratedMSBuildEditorConfig.editorconfig
+LearnCS/obj/LearnCS.csproj.nuget.dgspec.json
+LearnCS/obj/project.assets.json
+LearnCS/obj/project.nuget.cache
